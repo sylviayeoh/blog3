@@ -48,8 +48,13 @@
         <% end %>
 
         <div class="buttons">
+        <% if user_signed_in? %>
           <button class="button"><%= link_to "New Post", new_post_path %></button>
           <button class="button">Log Out</button>
+          <% else %>
+          <button class="button"><%= link_to "Sign Up", new_user_registration_path %></button>
+          <button class="button"><%= link_to "Sign In", new_user_session_path %></button>
+        <% end %>
 
       </div>
     </div>
