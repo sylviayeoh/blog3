@@ -210,6 +210,7 @@ a {
 		padding: 3em;
 		#profile_image {
 			width: 300px;
+
 			float: left;
 			margin-right: 2em;
 			img {
@@ -270,5 +271,15 @@ a {
 }
 
 .signup-btn {
+	margin-top: 20px;
+}
+
+
+.login-box {
+	margin-left: 15px;
+    width: 650px;
+}
+
+.login-btn {
 	margin-top: 20px;
 }
